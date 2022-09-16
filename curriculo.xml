@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<curriculo>
+    <informacoesPessoais>
+        <nome>Matheus</nome>
+        <sobrenome>Siqueira</sobrenome>
+    </informacoesPessoais>
+    <conhecimento>
+        <linguagemProgramacao>
+            <nome>JavaScript</nome>
+            <nivel>Intermediário</nivel>
+        </linguagemProgramacao>
+        <linguagemProgramacao>
+            <nome>PHP</nome>
+            <nivel>Intermediário</nivel>
+        </linguagemProgramacao>
+        <linguagemProgramacao>
+            <nome>C</nome>
+            <nivel>Iniciante</nivel>
+        </linguagemProgramacao>
+        <linguagemProgramacao>
+            <nome>Dart</nome>
+            <nivel>Iniciante</nivel>
+        </linguagemProgramacao>
+        <linguagemMarcacao>
+            <nome>HTML</nome>
+            <nivel>Avançado</nivel>
+        </linguagemMarcacao>
+        <linguagemMarcacao>
+            <nome>XML</nome>
+            <nivel>Intermediario</nivel>
+        </linguagemMarcacao>
+    </conhecimento>
+</curriculo>
