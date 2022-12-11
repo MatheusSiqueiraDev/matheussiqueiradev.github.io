@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #00aaea;
+    --secondary-color: #002434;
+    --elements-color: #0076aa;
+    --other-color: #d5f0ff;
+}
+
+body {
+    background-color: var(--secondary-color);
+}
+
+.custom-navbar {
+    background-color: var(--secondary-color);
+}
+
+.max-width {
+    max-width: 900px;
+    width: 100%;
+}
+
+.bg-primary-color {
+    background-color: var(--primary-color) !important;
+}
+
+.cl-primary-color {
+    color: var(--primary-color) !important;
+}
+
+.bg-elements-color {
+    background-color: var(--elements-color) !important;
+}
+
+.bg-other-color {
+    background-color: var(--other-color) !important;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.justify-content-space-evenly {
+    justify-content: space-evenly;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+.bg-img {
+    height: 350px;
+    background: url('../assets/surf.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-card {
+    border-radius: 0;
+    color: white;
+    border: 0;
+}
+
+.custom-card .card-text {
+    font-size: 0.8rem;
+}
+
+.ft-size-08 {
+    font-size: 0.8rem;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.pr-5 {
+    padding-right: 4rem !important;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+.footer-menu li:first-of-type a {
+    color: black;
+}
+
+.footer-menu li {
+    margin: 0 10px;
+}
+
+.footer-menu li a {
+    color: #04739b;
+}

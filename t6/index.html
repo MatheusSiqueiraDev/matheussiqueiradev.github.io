@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>T6</title>
+</head>
+<body>
+    <main class="container p-5">
+        <input class="form-control" type="text" id="input" placeholder="Escrever palavra">
+        <div id="result" class="rounded px-3 my-2 bg-primary text-white h3 font-weight-normal"></div>
+        <div id="buttons" class="d-flex justify-content-center mt-3 flex-wrap">
+            <button id="revert" class="btn btn-primary mb-2 mx-2">Reverter String</button>
+            <button id="bold-vowel" class="btn btn-primary mb-2 mx-2">Vogal Negrito</button>
+            <button id="string-array" class="btn btn-primary mb-2 mx-2">Texto em Array</button>
+            <button id="occurrence" class="btn btn-primary mb-2 mx-2">Maior Ocorrência</button>
+            <fieldset style="border: 1px solid rgba(0, 0, 0, 0.185); border-radius: 5px;" class="py-2 mx-3 d-flex">
+                <button id="replace" class="btn btn-primary mx-2">Substituir</button>
+                <input type="text" class="form-control mx-2" id="search" placeholder="Procurar">
+                <input type="text" class="form-control mx-2" id="replace-string" placeholder="Substituir">
+            </fieldset>
+            <fieldset style="border: 1px solid rgba(0, 0, 0, 0.185); border-radius: 5px;" class="p-2 m-3 d-flex">
+                <input type="date" class="form-control mx-2" id="date" placeholder="Data de Nascimento">
+                <button id="days" class="btn btn-primary mx-2">Dias vivido</button>
+            </fieldset>
+            <fieldset style="border: 1px solid rgba(0, 0, 0, 0.185); border-radius: 5px;" class="p-2 m-3 d-flex">
+                <input type="date" class="form-control mx-2" id="date-2" placeholder="Data">
+                <button id="days-2" class="btn btn-primary mx-2">Data por extenso</button>
+            </fieldset>
+        </div>
+    </main>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="./script/index.js"></script>
+</body>
+</html>
